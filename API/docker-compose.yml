@@ -1,0 +1,6 @@
+﻿services:
+  gui:
+    image: gui
+    build:
+      context: .
+      dockerfile: src/Gui/Dockerfile
