@@ -6,4 +6,11 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="FastEndpoints" Version="5.30.0" />
+      <PackageReference Include="FastEndpoints.ApiExplorer" Version="2.3.0" />
+      <PackageReference Include="FastEndpoints.Security" Version="5.30.0" />
+      <PackageReference Include="FastEndpoints.Swagger" Version="5.30.0" />
+    </ItemGroup>
+
 </Project>
