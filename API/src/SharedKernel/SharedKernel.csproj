@@ -11,6 +11,13 @@
       <PackageReference Include="FastEndpoints.ApiExplorer" Version="2.3.0" />
       <PackageReference Include="FastEndpoints.Security" Version="5.30.0" />
       <PackageReference Include="FastEndpoints.Swagger" Version="5.30.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.8" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SDK\SDK.csproj" />
     </ItemGroup>
 
 </Project>
