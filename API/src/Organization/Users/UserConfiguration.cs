@@ -5,7 +5,7 @@ using SharedKernel.Models;
 
 namespace Organization.Users;
 
-internal sealed class UserConfiguration : PersonConfiguration<User>
+internal sealed class UserConfiguration : IdentityConfiguration<User>
 {
     public override void Configure(EntityTypeBuilder<User> builder)
     {

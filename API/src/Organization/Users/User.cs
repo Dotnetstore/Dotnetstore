@@ -2,7 +2,7 @@
 
 namespace Organization.Users;
 
-internal sealed class User : Person
+internal sealed class User : Identity
 {
     public UserId Id { get; set; }
 }
